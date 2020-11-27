@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "front-litopro"
+  "defaultProject": "front-litopro",
+  "cli": {
+    "analytics": false
+  }
 }
