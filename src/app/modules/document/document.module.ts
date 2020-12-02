@@ -1,12 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DocumentsComponent } from './documents/documents.component';
+import { DocumentRoutingModule } from './document-routing-module';
 
 
 
 @NgModule({
-  declarations: [],
+
+  declarations: [
+    DocumentsComponent
+  ],
+
   imports: [
-    CommonModule
+    CommonModule,
+    DocumentRoutingModule
   ]
 })
 export class DocumentModule { }

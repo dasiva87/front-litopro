@@ -16,6 +16,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatRippleModule} from '@angular/material/core';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+
+
+// MODULES CLASS
+//import { DocumentModule } from 'src/app/modules/document'
+
 
 
 
@@ -39,7 +45,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatToolbarModule,
     MatIconModule,
     MatRippleModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCheckboxModule
 
 
   ],
