@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { DocumentsComponent } from './documents/documents.component';
+import { ListDocumentComponent } from './list-document/list-document.component';
 
 const routes: Routes = [
     {
         path : '', // esto es si enttramos a /documento se va por defecto al componente DocumentsComponent
-        component : DocumentsComponent
+        component : ListDocumentComponent
     }
 ];
 

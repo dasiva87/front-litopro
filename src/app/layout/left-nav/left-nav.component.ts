@@ -9,8 +9,6 @@ import { MediaMatcher } from '@angular/cdk/layout';
 
 export class LeftNavComponent implements OnInit {
 
-  menuAbierto: boolean = true;
-
   mobileQuery: MediaQueryList;
 
   fillerNav =  [
