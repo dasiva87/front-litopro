@@ -17,6 +17,12 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatRippleModule} from '@angular/material/core';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+
+
 
 
 // MODULES CLASS
@@ -46,10 +52,14 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatIconModule,
     MatRippleModule,
     MatButtonModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatGridListModule,
+    MatCardModule,
 
-
+    // FLEX
+    FlexLayoutModule
   ],
+  
   providers: [
     {
       provide: LocationStrategy,
