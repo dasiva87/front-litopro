@@ -3,15 +3,25 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
   {
+    path:'',
+    redirectTo:'/',
+    pathMatch: 'full',
+  },
+  {
     path: '',
 
     children: [
       {
-        path: '',
+        path: 'document',
         loadChildren : ()=> import('./modules/document/document.module').then( (m) => m.DocumentModule)
 
       }
     ]
+  },
+  {
+    path:'**',
+    redirectTo:'/',
+    pathMatch: 'full',
   }
 ];
 

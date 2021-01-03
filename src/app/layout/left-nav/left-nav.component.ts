@@ -12,17 +12,54 @@ export class LeftNavComponent implements OnInit {
   mobileQuery: MediaQueryList;
 
   fillerNav =  [
-    'Home',
-    'Cotizaciones',
-    'Ordenes de impresión',
-    'CTP',
-    'Tipos de máquinas',
-    'Tipos de papel',
-    'Clientes',
-    'Proveedores',
-    'Informes',
-    'Tutoriales',
-    'Sugerencias'
+    {
+      link:    '/',
+      nombre:  'home'
+    },
+    {
+      link:'document',
+      nombre: 'Cotizaciones'
+    },
+    {
+      link:'document',
+      nombre: 'Ordenes de impresión'
+    },
+    {
+      link:'ctp',
+      nombre: 'CTP'
+    },
+    {
+      link:'type-machine',
+      nombre: 'Tipos de máquinas'
+    },
+    {
+      link:'typt-machine',
+      nombre: 'Tipos de papel'
+    },
+    {
+      link:'document',
+      nombre: 'Clientes'
+    },
+    {
+      link:'third',
+      nombre: 'Cotizaciones'
+    },
+    {
+      link:'third',
+      nombre: 'Proveedores'
+    },
+    {
+      link:'document',
+      nombre: 'Informes'
+    },
+    {
+      link:'document',
+      nombre: 'tutoriales'
+    },
+    {
+      link:'document',
+      nombre: 'Sugerencia'
+    }
   ];
 
   private mobileQueryListener: () => void;
