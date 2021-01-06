@@ -5,6 +5,26 @@ import { HttpClientModule } from '@angular/common/http';
 
 import * as fromComponents from './components'
 
+
+//FLEX
+import { FlexLayoutModule } from '@angular/flex-layout';
+
+// MODULES ANGULAR MATERIAL
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatRippleModule} from '@angular/material/core';
+import {MatButtonModule} from '@angular/material/button';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator'
+
+
+
 @NgModule({
   declarations: [...fromComponents.component],
 
@@ -12,7 +32,27 @@ import * as fromComponents from './components'
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
+
+        // Material
+        MatSidenavModule,
+        MatListModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatRippleModule,
+        MatButtonModule,
+        MatCheckboxModule,
+        MatGridListModule,
+        MatCardModule,
+        MatInputModule,
+        MatTableModule,
+        MatPaginatorModule,
+        
+    
+        // FLEX
+        FlexLayoutModule
+
+
   ],
 
   exports: [
@@ -20,8 +60,29 @@ import * as fromComponents from './components'
     ReactiveFormsModule,
     HttpClientModule,
     CommonModule,
-    ...fromComponents.component
+    ...fromComponents.component,
+
+        // Material
+        MatSidenavModule,
+        MatListModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatRippleModule,
+        MatButtonModule,
+        MatCheckboxModule,
+        MatGridListModule,
+        MatCardModule,
+        MatInputModule,
+        MatTableModule,
+        MatPaginatorModule,
+        
+    
+        // FLEX
+        FlexLayoutModule
+
+
   ]
 
 })
+
 export class SharedModule { }

@@ -13,7 +13,7 @@ export class LeftNavComponent implements OnInit {
 
   fillerNav =  [
     {
-      link:    '/',
+      link:    '',
       nombre:  'home'
     },
     {
@@ -21,7 +21,7 @@ export class LeftNavComponent implements OnInit {
       nombre: 'Cotizaciones'
     },
     {
-      link:'document',
+      link:'#',
       nombre: 'Ordenes de impresión'
     },
     {
@@ -37,17 +37,17 @@ export class LeftNavComponent implements OnInit {
       nombre: 'Tipos de papel'
     },
     {
-      link:'document',
+      link:'#',
       nombre: 'Clientes'
     },
     {
-      link:'third',
+      link:'#',
       nombre: 'Cotizaciones'
     },
     {
-      link:'third',
+      link:'#',
       nombre: 'Proveedores'
-    },
+    }/*,
     {
       link:'document',
       nombre: 'Informes'
@@ -59,7 +59,7 @@ export class LeftNavComponent implements OnInit {
     {
       link:'document',
       nombre: 'Sugerencia'
-    }
+    }*/
   ];
 
   private mobileQueryListener: () => void;

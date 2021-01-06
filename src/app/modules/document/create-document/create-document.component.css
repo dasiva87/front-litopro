@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+}
+
+.mat-form-field {
+    font-size: 13px;
+    width: 31%;
+}
+
+hr {
+    margin: 20px;
+    border-width: 0px;
+}

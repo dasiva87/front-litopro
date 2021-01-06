@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DocumentRoutingModule } from './document-routing-module';
 import { CreateDocumentComponent } from './create-document/create-document.component';
 import { ListDocumentComponent } from './list-document/list-document.component';
-import { UpdateDocumentComponent } from './update-document/update-document.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 
@@ -12,12 +12,12 @@ import { UpdateDocumentComponent } from './update-document/update-document.compo
   declarations: [
     CreateDocumentComponent,
     ListDocumentComponent,
-    UpdateDocumentComponent
   ],
 
   imports: [
     CommonModule,
-    DocumentRoutingModule
+    DocumentRoutingModule,
+    SharedModule
   ]
 })
 export class DocumentModule { }
