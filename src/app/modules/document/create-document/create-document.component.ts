@@ -1,7 +1,6 @@
-import {AfterViewInit, Component, ViewChild} from '@angular/core';
-import {MatPaginator} from '@angular/material/paginator';
-import {MatSort} from '@angular/material/sort';
-import {MatTableDataSource} from '@angular/material/table';
+import {Component} from '@angular/core';
+import {MatDialog} from '@angular/material/dialog';
+import { SingleComponent } from '../../single/single/single.component';
 
 export interface UserData {
   id: string;
@@ -34,5 +33,18 @@ export class CreateDocumentComponent{
 
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   dataSource = ELEMENT_DATA;
+
+  constructor(public dialog: MatDialog) {}
+
+  openDialog() {
+    const dialogRef = this.dialog.open(SingleComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
+  }
+
+
+
 
 }

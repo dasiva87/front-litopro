@@ -1,15 +1,17 @@
-<div class="example-container" [class.example-is-mobile]="mobileQuery.matches" *ngIf="shouldRun">
-    <mat-toolbar color="primary" class="example-toolbar">
+<div class="container" [class.is-mobile]="mobileQuery.matches" *ngIf="shouldRun">
+    <mat-toolbar color="primary" class="toolbar">
         <button mat-icon-button (click)="snav.toggle()"><mat-icon>menu</mat-icon></button>
 
 
         <div fxLayout="row" fxLayoutAlign="space-between center" fxFlex="grow">
             <div fxLayout="row" fxLayoutAlign="space-around center" fxLayoutGap="50px">
 
-                <img height="40px" fxFlexOffset="15" src="/assets/logo-litopro-w.png" alt="Logo-LitoPro">
+                <a routerLink="/">
+                    <img height="40px" fxFlexOffset="15" src="/assets/logo-litopro-w.png" alt="Logo-LitoPro">
+                </a>
 
-                <form class="search-form">
-                    <mat-form-field class="search-full-width" appearance="outline">
+                <form>
+                    <mat-form-field appearance="outline">
                         <input type="search" matInput placeholder="Buscar">
                         <mat-icon matSuffix>search</mat-icon>
                     </mat-form-field>
@@ -37,15 +39,15 @@
         </mat-sidenav>
 
         <mat-sidenav-content>
-            <div fxLayout="row">
-                <div class="all-content" fxFlex="80" fxLayout="column" fxLayoutAlign="center">
-                    <router-outlet></router-outlet>
-                </div>
 
-                <div fxFlex="20" fxLayout="column" fxLayoutAlign="space-evenly center" style="background-color: #929eaa61;">
-                    dos
-                </div>
+            <div class="all-content">
+                <router-outlet></router-outlet>
             </div>
+
+            <!--div fxFlex="20" fxLayout="column" fxLayoutAlign="space-evenly center" style="background-color: #929eaa61;">
+                    dos
+                </div-->
+
         </mat-sidenav-content>
     </mat-sidenav-container>
 

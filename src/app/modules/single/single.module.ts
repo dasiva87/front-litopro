@@ -1,14 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CreateSingleComponent } from './create-single/create-single.component';
-import { UpdateSingleComponent } from './update-single/update-single.component';
+import { SingleComponent } from './single/single.component';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 
 @NgModule({
-  declarations: [CreateSingleComponent, UpdateSingleComponent],
+  declarations: [SingleComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ]
 })
 export class SingleModule { }
