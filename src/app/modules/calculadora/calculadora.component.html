@@ -1,0 +1,34 @@
+<form [formGroup]="forma" (ngSubmit)="maximo()">
+
+    <p> Tamaño del pliego </p>
+    <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Ancho</mat-label>
+        <input matInput formControlName="papelAncho">
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Largo</mat-label>
+        <input matInput formControlName="papelLargo">
+    </mat-form-field>
+
+    <p> Tamaño del corte </p>
+
+    <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Ancho</mat-label>
+        <input matInput formControlName="corteAncho">
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Largo</mat-label>
+        <input matInput formControlName="corteLargo">
+    </mat-form-field>
+
+    <p> Cortes deseados </p>
+
+    <mat-form-field class="full-width" appearance="outline">
+        <mat-label>Cortes</mat-label>
+        <input matInput formControlName="cortesDeseados">
+    </mat-form-field>
+
+
+</form>

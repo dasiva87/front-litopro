@@ -53,8 +53,9 @@ import {MatDialogModule} from '@angular/material/dialog';
         
     
         // FLEX
-        FlexLayoutModule
+        FlexLayoutModule,
 
+        ReactiveFormsModule
 
   ],
 
@@ -82,7 +83,9 @@ import {MatDialogModule} from '@angular/material/dialog';
         
     
         // FLEX
-        FlexLayoutModule
+        FlexLayoutModule,
+
+        ReactiveFormsModule
 
 
   ]
