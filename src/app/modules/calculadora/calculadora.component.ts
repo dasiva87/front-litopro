@@ -9,11 +9,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 export class CalculadoraComponent implements OnInit {
     
     forma: FormGroup;
-
-
+    
   constructor( private fb: FormBuilder) {
         this.crearFormulario();
-        this.acomoda(this.forma.get('papelAncho').value, this.forma.get('papelLargo').value, 'H','H' );
    }
 
   ngOnInit(): void {
@@ -30,7 +28,7 @@ export class CalculadoraComponent implements OnInit {
   }
 
   maximo(){
-
+    this.acomoda(this.forma.get('papelAncho').value, this.forma.get('papelLargo').value, 'H','H' );
   }
 
 

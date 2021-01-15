@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ListNewsComponent } from './modules/news/list-news/list-news.component';
 
 const routes: Routes = [
-  {
-    path:'',
-    redirectTo:'/',
-    pathMatch: 'full',
-  },
-  {
-    path: '',
+  
+  { path:'', component: ListNewsComponent , /* este es el Home*/ },
+  { path:'', redirectTo:'/', pathMatch: 'full' },
+
+  { path: '',
     children: [
       {
         path: 'document',
@@ -16,11 +15,9 @@ const routes: Routes = [
       }
     ]
   },
-  {
-    path:'**',
-    redirectTo:'/',
-    pathMatch: 'full',
-  }
+
+  { path:'**', pathMatch: 'full', redirectTo:'/'},
+
 ];
 
 @NgModule({

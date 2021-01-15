@@ -8,7 +8,6 @@ import { SharedModule } from './shared/shared.module';
 import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LeftNavComponent } from './layout/left-nav/left-nav.component';
-import { CalculadoraComponent } from './modules/calculadora/calculadora.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
 
@@ -18,7 +17,6 @@ import { ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     LeftNavComponent,
-    CalculadoraComponent,
   ],
   imports: [
     BrowserModule,
