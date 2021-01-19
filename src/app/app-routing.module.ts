@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { ListNewsComponent } from './modules/news/list-news/list-news.component';
 
 const routes: Routes = [
-  
   { path:'', component: ListNewsComponent , /* este es el Home*/ },
   { path:'', redirectTo:'/', pathMatch: 'full' },
 
@@ -16,6 +15,23 @@ const routes: Routes = [
     ]
   },
 
+  { path: '',
+    children: [
+      {
+        path: 'news',
+        loadChildren : ()=> import('./modules/news/news.module').then( (m) => m.NewsModule)
+      }
+    ]
+  },
+
+  { path: '',
+    children: [
+      {
+        path: 'type-ctp',
+        loadChildren : ()=> import('./modules/type-ctp/type-ctp.module').then( (m) => m.TypeCtpModule)
+      }
+    ]
+  },
   { path:'**', pathMatch: 'full', redirectTo:'/'},
 
 ];

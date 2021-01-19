@@ -7,9 +7,11 @@ import { ListDocumentDetailsComponent } from './list-document-details/list-docum
 
 
 @NgModule({
-  declarations: [CreateDocumentDetailsComponent, UpdateDocumentDetailsComponent, ListDocumentDetailsComponent],
-  imports: [
-    CommonModule
-  ]
+    declarations: [CreateDocumentDetailsComponent, UpdateDocumentDetailsComponent, ListDocumentDetailsComponent],
+    imports: [
+        CommonModule
+    ]
 })
+
+
 export class DocumentDetailsModule { }

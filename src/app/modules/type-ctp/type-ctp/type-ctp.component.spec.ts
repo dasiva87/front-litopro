@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CreateTypeCtpComponent } from './create-type-ctp.component';
+import { CreateTypeCtpComponent } from './type-ctp.component';
 
 describe('CreateTypeCtpComponent', () => {
   let component: CreateTypeCtpComponent;

@@ -10,6 +10,6 @@ export class ListNewsComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-  }
+  } 
 
 }

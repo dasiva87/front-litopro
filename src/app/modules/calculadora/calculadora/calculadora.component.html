@@ -32,7 +32,15 @@
 
     <div>
         <button type="submit" mat-fab color="primary" aria-label="Example icon button with a delete icon">
-            <mat-icon>delete</mat-icon>
+            <mat-icon>+</mat-icon>
+        </button>
+
+        <button (click)="orientacion_h()" mat-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>-</mat-icon>
+        </button>
+
+        <button (click)="orientacion_v()" mat-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>/</mat-icon>
         </button>
     </div>
 

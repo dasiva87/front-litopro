@@ -14,7 +14,7 @@ export class LeftNavComponent implements OnInit {
   fillerNav =  [
     {
       link:    '',
-      nombre:  'home'
+      nombre:  'Home'
     },
     {
       link:'document',
@@ -25,7 +25,7 @@ export class LeftNavComponent implements OnInit {
       nombre: 'Ordenes de impresión'
     },
     {
-      link:'ctp',
+      link:'type-ctp',
       nombre: 'CTP'
     },
     {
@@ -33,7 +33,7 @@ export class LeftNavComponent implements OnInit {
       nombre: 'Tipos de máquinas'
     },
     {
-      link:'typt-machine',
+      link:'type-machine',
       nombre: 'Tipos de papel'
     },
     {

@@ -12,4 +12,4 @@ export class CreateNewsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-}
+} 

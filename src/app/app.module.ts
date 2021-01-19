@@ -12,7 +12,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,19 +20,19 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
 
+
     // Core
     AppRoutingModule,
     CoreModule,
     SharedModule,
     BrowserAnimationsModule,
-
-    ReactiveFormsModule
+    ReactiveFormsModule,
 
   ],
   
   providers: [
     {
-      provide: LocationStrategy,
+      provide: LocationStrategy, // Esto es para quitar de la ruta el nuemral #
       useClass: PathLocationStrategy
     }
   ],
