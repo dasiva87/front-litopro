@@ -1,4 +1,4 @@
-export class TypeSheet {
+export class TypeSheetModel {
 
     id: number;
     tipo: string;

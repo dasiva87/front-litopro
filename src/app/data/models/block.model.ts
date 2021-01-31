@@ -1,4 +1,4 @@
-export class Block {
+export class BlockModel {
 
     id: number;
     cantidad: number;

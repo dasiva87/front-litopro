@@ -1,4 +1,4 @@
-export class TypeCtp {
+export class TypeCtpModel {
 
     id: number;
     codigo: string;

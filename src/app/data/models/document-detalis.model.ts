@@ -1,4 +1,4 @@
-export class DocumentDetail {
+export class DocumentDetailModel {
 
     id: number;
     cantidad: number;

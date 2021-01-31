@@ -25,6 +25,10 @@ export class LeftNavComponent implements OnInit {
       nombre: 'Ordenes de impresión'
     },
     {
+      link:'#',
+      nombre: 'Ordenes de pedido de papel'
+    },
+    {
       link:'type-ctp',
       nombre: 'CTP'
     },
@@ -39,10 +43,6 @@ export class LeftNavComponent implements OnInit {
     {
       link:'#',
       nombre: 'Clientes'
-    },
-    {
-      link:'#',
-      nombre: 'Cotizaciones'
     },
     {
       link:'#',

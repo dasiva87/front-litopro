@@ -1,4 +1,4 @@
-export class Single {
+export class SingleModel {
 
     id: number;
     descripcion: string;

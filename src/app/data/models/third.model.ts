@@ -1,4 +1,4 @@
-export class Third {
+export class ThirdModel {
 
     id: number;
     foto: string;

@@ -1,4 +1,4 @@
-export class Business {
+export class BusinessModel {
 
     id: number;
     activa: number;

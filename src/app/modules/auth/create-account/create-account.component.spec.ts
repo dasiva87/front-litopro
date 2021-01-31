@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CreteAccountComponent } from './crete-account.component';
+import { CreateAccountComponent } from './create-account.component';
 
-describe('CreteAccountComponent', () => {
-  let component: CreteAccountComponent;
-  let fixture: ComponentFixture<CreteAccountComponent>;
+describe('CreateAccountComponent', () => {
+  let component: CreateAccountComponent;
+  let fixture: ComponentFixture<CreateAccountComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CreteAccountComponent ]
+      declarations: [ CreateAccountComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CreteAccountComponent);
+    fixture = TestBed.createComponent(CreateAccountComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

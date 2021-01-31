@@ -1,4 +1,4 @@
-export class Finishe {
+export class FinisheModel {
 
     id: number;
     unidadDeMedida: string;

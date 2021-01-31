@@ -1,4 +1,4 @@
-export class Printing {
+export class PrintingModel {
 
     id: number;
     cantidad: number;

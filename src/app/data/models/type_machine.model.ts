@@ -1,4 +1,4 @@
-export class TypeMachine {
+export class TypeMachineModel {
 
     id: number;
     codigo: string;

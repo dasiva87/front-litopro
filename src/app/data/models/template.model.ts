@@ -1,4 +1,4 @@
-export class Template {
+export class TemplateModel {
 
     id: number;
     document_detail_id: number;

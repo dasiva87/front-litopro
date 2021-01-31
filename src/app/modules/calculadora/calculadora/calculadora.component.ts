@@ -31,10 +31,10 @@ export class CalculadoraComponent implements OnInit {
 
   maximo(){
      let a = this.calculadora.maximo(this.forma.get('papelAncho').value,
-                              this.forma.get('papelLargo').value,
-                              this.forma.get('corteAncho').value,
-                              this.forma.get('corteLargo').value,
-                              this.forma.get('cortesDeseados').value,);
+        this.forma.get('papelLargo').value,
+        this.forma.get('corteAncho').value,
+        this.forma.get('corteLargo').value,
+        this.forma.get('cortesDeseados').value,);
     console.log(a);
   }
 

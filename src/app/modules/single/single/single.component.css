@@ -1,0 +1,9 @@
+.container-single {
+    width: 800px;
+    height: 300px;
+}
+
+.full-width {
+    width: 100%;
+    margin: 0 5px 0 5px;
+}

@@ -1,3 +1,7 @@
+.mat-toolbar {
+    font: 200 12px/32px Poppins, "Helvetica Neue", sans-serif;
+}
+
 .container {
     display: flex;
     flex-direction: column;

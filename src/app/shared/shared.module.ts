@@ -23,6 +23,9 @@ import {MatInputModule} from '@angular/material/input';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator'
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSelectModule} from '@angular/material/select'
+
 
 
 
@@ -50,6 +53,8 @@ import {MatDialogModule} from '@angular/material/dialog';
         MatTableModule,
         MatPaginatorModule,
         MatDialogModule,
+        MatFormFieldModule,
+        MatSelectModule,
         
     
         // FLEX
@@ -80,6 +85,8 @@ import {MatDialogModule} from '@angular/material/dialog';
         MatTableModule,
         MatPaginatorModule,
         MatDialogModule,
+        MatFormFieldModule,
+        MatSelectModule,
         
     
         // FLEX

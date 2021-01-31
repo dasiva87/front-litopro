@@ -1,4 +1,4 @@
-export class Document {
+export class DocumentModel {
 
     id: number;
     tipo: string;

@@ -32,6 +32,17 @@ const routes: Routes = [
       }
     ]
   },
+
+  { path: '',
+    children: [
+      {
+        path: 'auth',
+        loadChildren : ()=> import('./modules/auth/auth.module').then( (m) => m.AuthModule)
+      }
+    ]
+  },
+
+
   { path:'**', pathMatch: 'full', redirectTo:'/'},
 
 ];

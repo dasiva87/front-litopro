@@ -1,4 +1,4 @@
-export class Paper {
+export class PaperModel {
 
     id: number;
     codigo: string;

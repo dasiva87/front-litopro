@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SingleComponent } from './single/single.component';
-import { SharedModule } from 'src/app/shared/shared.module';
+import { SharedModule } from '../../shared/shared.module';
 
 
 
 @NgModule({
-  declarations: [SingleComponent],
+  declarations: [
+    SingleComponent
+  ],
   imports: [
     CommonModule,
     SharedModule
